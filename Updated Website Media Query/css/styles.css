@@ -1,0 +1,410 @@
+            /* Base Element Styles */
+
+            * {
+
+            font-family: 'sans-serif', 'Roboto', serif, 'Crimson Pro', serif;  
+            box-sizing: border-box;
+
+
+            }
+
+            .wrapper {
+
+            background-color: lightgray;
+            font-size: 20px;
+            text-align: center;
+            line-height: 1.6;
+            color: #000000;  
+            min-height: 100vh;
+
+
+            }
+
+            .wrap {
+
+                width:90%;
+                margin: auto;
+                background-color: rgb(235, 235, 235);
+                padding-bottom: 50px;
+                border: dashed red;
+                
+
+            }
+
+            .name {
+
+            display: inline-block;
+            text-align: center;
+            margin: 0 auto;
+            padding: 5px;
+
+
+            }
+
+            .links {
+              padding-left: 0;
+              width: 90%;
+              margin: auto;
+          }
+
+            .main {
+
+                width: 100%;
+                text-align: center;
+                background-color: rgb(233, 230, 230);
+                display: inline-block;
+                margin: 10px 0;
+                padding: 10px 0;
+
+                }
+                
+            p {
+                padding: 10px;
+                margin: 10px;
+            }
+
+            li {
+
+                list-style-type: none;
+            }
+
+            img {
+
+                width: 80%;
+                padding-top: 20px;
+                margin: auto;
+                
+            }
+
+            .sub_heading {
+
+            font-size: 20px;
+            margin-top: 50px;
+            padding-top: 30px;
+
+            }
+
+            .connect {
+
+            margin: 10px 0;
+            padding: 30px 0;
+            background-color: rgb(224, 216, 220);
+            color: rgb(136, 27, 27);
+
+            }
+
+            .main-footer {
+
+                 margin: 0 10px;
+
+            }
+
+            .sub-footer {
+
+            text-align: center;
+            margin: 20px;
+
+            }
+
+            #footer-name {
+
+                font-size: 20px;
+                float: left;
+                margin: 5px 0;
+                padding: 5px 0;
+                
+            }
+
+            .top {
+
+                font-size: 20px;
+                float: right;
+                margin: 5px 0;
+                padding: 5px 0;
+
+
+            }
+
+            .full {
+
+            display: none;
+
+            }
+
+            a {
+                color: black;
+                text-decoration: none;
+
+            }
+
+            a:hover {
+
+                color: rgb(207, 86, 108);
+                
+            }
+   
+             #skills .achievements {
+
+              margin-top: 50px;
+              margin-bottom: 100px;
+              margin-right: 30px;
+              margin-left: 30px;
+
+             }
+
+               /*---------- Media Queries--------------- */
+
+
+           @media (min-width: 768px) {
+
+                  .wrapper {
+
+                  width: 100%;
+                  margin: 0 auto;
+
+
+                  }
+
+
+                  #main_header .name {
+
+                  background-color: rgb(192, 228, 192);
+                  margin: 10px;
+                  padding: 10px;
+                  }
+
+
+                  .links li {
+
+                    float: left;
+                  margin: 5px 5px 5px 10px;
+                  padding: 5px;
+
+                  }
+
+                  .primary-col {
+
+                  text-align: justify;
+                  }
+
+                  .primary-content { 
+
+                  width: 90%;
+                  margin: 40px;
+
+                  }
+
+                  .primary-content .first_image {
+
+                  float: right;
+                  width: 40%;
+                  margin: 0 5px 0 20px;
+                  }
+
+
+                  .secondary-content,
+                  .fourth-content,
+                  .sixth-content {
+
+                  width: 50%;
+                  float: left;
+
+
+                  }
+
+                  .tertiary-content,
+                  .fifth-content,
+                  .seventh-content {
+
+                  width: 50%;
+                  float: right;
+
+
+                  }
+
+                  .clearfix::after {
+
+                  content: "";
+                  display: table;
+                  clear: both;
+
+
+                    }
+
+                    .wrap {
+
+                    width: 90%;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    min-height: calc(100vh - 89px);
+
+                    }
+
+                    .main-footer ul,
+                    .full {
+                    float: right;
+                    display: block;
+                    margin: 5px;
+                    padding: 5px;
+                    }
+
+
+                    #footer-name {
+                    display: block;
+                    margin: 5px 10px;
+                    padding: 5px 10px;
+
+                    }
+
+                    .main-footer .full {
+
+                    float: left;
+
+
+                    }
+
+
+                    .main-footer .top {
+                    display: none;
+
+                    }
+
+                  nav .main {
+
+                  background-color: rgb(192, 228, 192);
+                  margin: 30px;
+
+                  }
+
+                  .skills {
+
+                  width:90%;
+
+                  padding: 10px;
+
+                  }
+
+                  .professional-skills li {
+
+                  text-align: center;
+                  margin: 0 auto;
+                  padding: 20px;
+                  }
+
+
+                  }
+
+        
+        /*------------ Media Query ----------------  */
+
+            @media (min-width: 1024px) {
+
+
+            .wrapper {
+
+            width: 100%;
+            max-width: 1200px;
+
+            }
+
+            .wrap {
+
+            width: 90%;
+
+            }
+
+            .primary-content {
+
+              width: 90%;
+              margin: 20px 50px;
+
+
+            }
+
+            .primary-content .first_image {
+
+                float: right;
+                width: 40%;
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+
+
+               }
+        
+            #main_header .name {
+
+              float: left;
+              margin: 20px 30px;
+              font-size: 25px;
+              padding: 15px 30px;
+
+
+            }
+             
+            .container,
+            ul .links li {        
+                        float: right; 
+                        width: 70%;
+                
+            }
+
+            .links li,
+            .main {
+                
+                float: left;
+                margin: 0 -10px 0 20px;
+              
+
+            }
+
+            p .primary-col {
+              
+                margin: 0 auto;
+
+            }
+        
+
+            .secondary-content,
+            .tertiary-content,
+            .fifth-content,
+            .sixth-content,
+            .fourth-content,
+            .seventh-content
+            
+        {
+
+                float: left;
+                width: 33.33%;
+                margin: 0 auto;
+
+        
+
+               }
+
+               .main-footer ul,
+               .full {
+                float: right;
+                display: block;
+                margin: 5px;
+                padding: 5px;
+            }
+
+
+           #footer-name {
+            float: left;
+            display: block;
+            margin: 5px 10px;
+            padding: 5px 10px;
+
+           }
+
+           .skills {
+            
+            width:90%;
+        
+            padding: 10px;
+
+          }
+
+        
+        }
